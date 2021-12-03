@@ -51,7 +51,7 @@
   justify-content: space-between;
   padding: 15px 15px 15px 15px;
   margin: 10px 10px 10px 10px;
-  background-color: darkorange;
+  background-color: #ff8402;
   border-radius: 50px;
 
 }
@@ -97,3 +97,29 @@ button {
 }
 
 
+
+/*//Forms */
+input[type="text"] {
+  display: block;
+  align-items: flex-end;
+  align-content: space-between;
+}
+
+label {
+  display: block;
+  margin: 8px 0;
+
+}
+
+p {
+  color: #ffffff;
+  font-size: 10px;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px 30px 30px;
+  justify-content: space-around;
+}
